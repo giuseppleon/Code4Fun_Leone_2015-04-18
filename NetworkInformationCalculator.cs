@@ -14,12 +14,20 @@ namespace Code4Fun_Leone_2015_04_18
 
         //NOTA3: Non aggiungerei il metodo sotto riportato in modo da disaccoppiare il calcolo con il reperimento dei dati di input (che potrebbe avvenire da diverse fonti).
 
+        /// <summary>
+        /// Calculate the total number of connections, the average latency and the total bandwith for all the files in the specified path
+        /// </summary> 
+        /// <returns>Returns a NetworkInformation containing the total number of connections, the average latency and the total bandwith.</returns>
         public static NetworkInformation Calculate(String path, String searchPattern)
         {
             return Calculate(NetworkInformationParser.ParseFlatFiles(path, searchPattern, '\t'));
         }
 
 
+        /// <summary>
+        /// Calculate the total number of connections, the average latency and the total bandwith for all the NetworkInformation in the passed list
+        /// </summary> 
+        /// <returns>Returns a NetworkInformation containing the total number of connections, the average latency and the total bandwith.</returns>
         public static NetworkInformation Calculate(List<NetworkInformation> networkInformations)
         {
             // Return an empty NetworkInformation if the passed list of NetworkInformation is null

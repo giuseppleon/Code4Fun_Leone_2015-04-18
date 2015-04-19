@@ -16,6 +16,17 @@ namespace Code4Fun_Leone_2015_04_18
 
         //NOTA2: Valutare la necessità di gestire più formati di file attraverso l'aggiunta di un filetype o di altri metodi
 
+        /// <summary>
+        /// Extract the NetworkInformations from all the files in the specified path
+        /// </summary> 
+        /// <returns>Returns a list of NetworkInformation containing the values presents into the files.</returns>
+        /// <param name="path"> The relative or absolute path to the directory to search. This string is not case-sensitive.</param>
+        /// <param name="searchPattern"> The search string to match against the names of files in path. This parameter can contain a 
+        /// combination of valid literal path and wildcard (* and ?) characters, but doesn't support regular expressions.</param>
+        /// <param name="delimiter"> The delimiter character between key and value.</param>
+        /// <exception cref="System.Exception">Thrown when one or more files does not contains the required informations or a value of the required
+        ///  informations is not well-formed  or a files contains one or more duplicated informations</exception>
+        /// <exception cref="System.IO.DirectoryNotFoundException">Thrown when the directory does not exists.</exception>
         public static List<NetworkInformation> ParseFlatFiles(String path, String searchPattern, char delimiter)
         {
             //Check if the directory exists
@@ -37,6 +48,15 @@ namespace Code4Fun_Leone_2015_04_18
             return networkInformations;
         }
 
+        /// <summary>
+        /// Extract the NetworkInformation from file
+        /// </summary> 
+        /// <returns>Returns a NetworkInformation containing the values presents into the file.</returns>
+        /// <param name="filename"> The file to read.</param>
+        /// <param name="delimiter"> The delimiter character between key and value.</param>
+        /// <exception cref="System.Exception">Thrown when the file does not contains the required informations or a value of the required
+        ///  informations is not well-formed or the file contains one or more duplicated informations</exception>
+        /// <exception cref="System.IO.FileNotFoundException">Thrown when the file does not exists.</exception>
         public static NetworkInformation ParseFlatFile(String filename, char delimiter)
         {
             //Check if the file exists
