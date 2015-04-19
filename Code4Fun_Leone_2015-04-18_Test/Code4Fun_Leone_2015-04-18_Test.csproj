@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="NetworkInformationCalculatorTest.cs" />
     <Compile Include="NetworkInformationParserTest.cs" />
+    <Compile Include="NetworkInformationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
