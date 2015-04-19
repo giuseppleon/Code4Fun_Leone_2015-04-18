@@ -1,0 +1,9 @@
+C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\Code4Fun_Leone_2015-04-18_Test.dll
+C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\Code4Fun_Leone_2015-04-18_Test.pdb
+C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\Code4Fun_Leone_2015-04-18.dll
+C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\Code4Fun_Leone_2015-04-18.pdb
+C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\Code4Fun_Leone_2015-04-18_Accessor.dll
+C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\Code4Fun_Leone_2015-04-18_Accessor.pdb
+C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\obj\Debug\Code4Fun_Leone_2015-04-18_Test.csprojResolveAssemblyReference.cache
+C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\obj\Debug\Code4Fun_Leone_2015-04-18_Test.dll
+C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\obj\Debug\Code4Fun_Leone_2015-04-18_Test.pdb

@@ -5,12 +5,7 @@ using System.Collections.Generic;
 
 namespace Code4Fun_Leone_2015_04_18_Test
 {
-    
-    
-    /// <summary>
-    ///Classe di test per NetworkInformationCalculatorTest.
-    ///Creata per contenere tutti gli unit test NetworkInformationCalculatorTest
-    ///</summary>
+
     [TestClass()]
     public class NetworkInformationCalculatorTest
     {
@@ -18,10 +13,6 @@ namespace Code4Fun_Leone_2015_04_18_Test
 
         private TestContext testContextInstance;
 
-        /// <summary>
-        ///Ottiene o imposta il contesto dei test, che fornisce
-        ///funzionalità e informazioni sull'esecuzione dei test corrente.
-        ///</summary>
         public TestContext TestContext
         {
             get
@@ -34,50 +25,69 @@ namespace Code4Fun_Leone_2015_04_18_Test
             }
         }
 
-        #region Attributi di test aggiuntivi
-        // 
-        //Durante la scrittura dei test è possibile utilizzare i seguenti attributi aggiuntivi:
-        //
-        //Utilizzare ClassInitialize per eseguire il codice prima di eseguire il primo test della classe
-        //[ClassInitialize()]
-        //public static void MyClassInitialize(TestContext testContext)
-        //{
-        //}
-        //
-        //Utilizzare ClassCleanup per eseguire il codice dopo l'esecuzione di tutti i test di una classe
-        //[ClassCleanup()]
-        //public static void MyClassCleanup()
-        //{
-        //}
-        //
-        //Utilizzare TestInitialize per eseguire il codice prima di eseguire ciascun test
-        //
-        //[TestInitialize()]
-        //public void MyTestInitialize()
-        //{
-        //}
-        //Utilizzare TestCleanup per eseguire il codice dopo l'esecuzione di ciascun test
-        //[TestCleanup()]
-        //public void MyTestCleanup()
-        //{
-        //}
-        //
-        #endregion
-
-
         /// <summary>
-        ///Test per Calculate
+        /// Test if the NetworkInformation is properly calculate (normal use)
         ///</summary>
         [TestMethod()]
         [DeploymentItem("Code4Fun_Leone_2015-04-18.dll")]
-        public void CalculateTest()
+        public void Calculate_Calculate()
         {
-            List<NetworkInformation> networkInformations = null; // TODO: Eseguire l'inizializzazione a un valore appropriato
-            NetworkInformation expected = null; // TODO: Eseguire l'inizializzazione a un valore appropriato
+            List<NetworkInformation> networkInformations = new List<NetworkInformation>();
+            networkInformations.Add(new NetworkInformation(2, 20, 50));
+            networkInformations.Add(new NetworkInformation(2, 30.5, 50));
+
+            NetworkInformation expected = new NetworkInformation(4, 25.25, 100);
             NetworkInformation actual;
             actual = NetworkInformationCalculator_Accessor.Calculate(networkInformations);
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verificare la correttezza del metodo di test.");
+            Assert.IsTrue(expected.Equals(actual));
         }
+
+        /// <summary>
+        /// Test if the NetworkInformation is properly calculate when a file contains negative number of connections
+        ///</summary>
+        [TestMethod()]
+        [DeploymentItem("Code4Fun_Leone_2015-04-18.dll")]
+        public void Calculate_NegaiveConnection()
+        {
+            List<NetworkInformation> networkInformations = new List<NetworkInformation>();
+            networkInformations.Add(new NetworkInformation(2, 20, 50));
+            networkInformations.Add(new NetworkInformation(2, 30.5, 50));
+            networkInformations.Add(new NetworkInformation(-2, 30.5, 50));
+
+            NetworkInformation expected = new NetworkInformation(4, 25.25, 100);
+            NetworkInformation actual;
+            actual = NetworkInformationCalculator_Accessor.Calculate(networkInformations);
+            Assert.IsTrue(expected.Equals(actual));
+        }
+
+        /// <summary>
+        /// Test if the NetworkInformation is properly calculate if the passed list is empty
+        ///</summary>
+        [TestMethod()]
+        [DeploymentItem("Code4Fun_Leone_2015-04-18.dll")]
+        public void Calculate_EmptyList()
+        {
+            List<NetworkInformation> networkInformations = new List<NetworkInformation>();
+
+            NetworkInformation expected = new NetworkInformation();
+            NetworkInformation actual = NetworkInformationCalculator_Accessor.Calculate(networkInformations);
+            Assert.IsTrue(expected.Equals(actual));
+        }
+
+        /// <summary>
+        /// Test if the NetworkInformation is properly calculate if the passed list is null
+        ///</summary>
+        [TestMethod()]
+        [DeploymentItem("Code4Fun_Leone_2015-04-18.dll")]
+        public void Calculate_NullList()
+        {
+            List<NetworkInformation> networkInformations = null;
+
+            NetworkInformation expected = new NetworkInformation();
+            NetworkInformation actual = NetworkInformationCalculator_Accessor.Calculate(networkInformations);
+            Assert.IsTrue(expected.Equals(actual));
+
+        }
+
     }
 }
