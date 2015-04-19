@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8b47db31-782d-4a5a-bfd3-5cee8c97ab9f" name="Peppe@WIN-PT2FBT6II3P 2015-04-19 16:57:32" runUser="WIN-PT2FBT6II3P\Peppe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Locale" id="5df23928-e0d8-4a2a-8f93-e46961aec419">
+    <Description>Impostazioni test predefinite per un'esecuzione dei test locale.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Peppe_WIN-PT2FBT6II3P 2015-04-19 16_57_32">
+      <DeploymentItem filename="C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\bin\Debug\Code4Fun_Leone_2015-04-18.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-04-19T16:57:32.5628565+02:00" queuing="2015-04-19T16:57:33.8119280+02:00" start="2015-04-19T16:57:33.9129337+02:00" finish="2015-04-19T16:57:35.9910526+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="5" error="0" failed="8" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="WIN-PT2FBT6II3P" outcome="Warning" timestamp="2015-04-19T16:57:32.6028588+02:00">
+        <Text>La distribuzione è attualmente disattivata. L'elemento di distribuzione 'Code4Fun_Leone_2015-04-18.dll' nel test 'Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFiles_IncompleteFile' non è stato distribuito.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ParseFlatFiles_IncompleteFile" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="6cf2337d-f71d-532a-012d-26f0342f83c0">
+      <DeploymentItems>
+        <DeploymentItem filename="Code4Fun_Leone_2015-04-18.dll" />
+      </DeploymentItems>
+      <Execution id="8c97878b-50f1-4088-939a-0cae352dd9d8" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParseFlatFiles_IncompleteFile" />
+    </UnitTest>
+    <UnitTest name="ParseFlatFiles_DirectoryNotFound" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="06e07ec1-bc3c-9778-fb8d-aa0e71d2750e">
+      <DeploymentItems>
+        <DeploymentItem filename="Code4Fun_Leone_2015-04-18.dll" />
+      </DeploymentItems>
+      <Execution id="54650332-78b8-4d41-8f44-4252d4c414be" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParseFlatFiles_DirectoryNotFound" />
+    </UnitTest>
+    <UnitTest name="ParseFlatFile_FileNotFound" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="b9d6a470-fc7c-7e63-e384-617897a3544e">
+      <DeploymentItems>
+        <DeploymentItem filename="Code4Fun_Leone_2015-04-18.dll" />
+      </DeploymentItems>
+      <Execution id="c9e330af-c688-45f1-b030-c8b4ca6dd17c" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParseFlatFile_FileNotFound" />
+    </UnitTest>
+    <UnitTest name="ParseFlatFile_IncompleteFile" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="afd56f4d-9fac-efaf-d0b4-6ce3e04b1cc3">
+      <DeploymentItems>
+        <DeploymentItem filename="Code4Fun_Leone_2015-04-18.dll" />
+      </DeploymentItems>
+      <Execution id="96ff250a-6c87-4f29-a130-14148f620809" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParseFlatFile_IncompleteFile" />
+    </UnitTest>
+    <UnitTest name="ParseFlatFile_ParseFlatFile" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="0d5d71ec-dba2-6391-dca9-a0fb3fd6ad05">
+      <DeploymentItems>
+        <DeploymentItem filename="Code4Fun_Leone_2015-04-18.dll" />
+      </DeploymentItems>
+      <Execution id="1b5b96e5-3ca7-499b-a5c2-28e63794ea28" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParseFlatFile_ParseFlatFile" />
+    </UnitTest>
+    <UnitTest name="Calculate_Calculate" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="1b896062-af59-adad-66da-82eb31490782">
+      <DeploymentItems>
+        <DeploymentItem filename="Code4Fun_Leone_2015-04-18.dll" />
+      </DeploymentItems>
+      <Execution id="89a62ee8-ce89-4e0a-a86a-7c601e32e592" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationCalculatorTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Calculate_Calculate" />
+    </UnitTest>
+    <UnitTest name="ParseFlatFile_DuplicateKey" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="7aba810b-a0c0-8201-e056-d18e68201a5b">
+      <DeploymentItems>
+        <DeploymentItem filename="Code4Fun_Leone_2015-04-18.dll" />
+      </DeploymentItems>
+      <Execution id="f38c6b02-52b8-4301-86e5-8f04bf23d9cf" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParseFlatFile_DuplicateKey" />
+    </UnitTest>
+    <UnitTest name="Calculate_NegaiveConnection" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="18b61074-caf2-b501-6f68-5c39d9ec0ff0">
+      <DeploymentItems>
+        <DeploymentItem filename="Code4Fun_Leone_2015-04-18.dll" />
+      </DeploymentItems>
+      <Execution id="233e04f8-5a39-4416-913f-a8ff58054aa4" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationCalculatorTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Calculate_NegaiveConnection" />
+    </UnitTest>
+    <UnitTest name="Calculate_EmptyList" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="b81d1423-00a2-719b-2452-066462d5837c">
+      <DeploymentItems>
+        <DeploymentItem filename="Code4Fun_Leone_2015-04-18.dll" />
+      </DeploymentItems>
+      <Execution id="27993c87-6abd-410c-a456-6487db1c52e9" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationCalculatorTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Calculate_EmptyList" />
+    </UnitTest>
+    <UnitTest name="ParseFlatFiles_ParseFlatFiles" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="980377c1-7391-8ee8-3bc3-2a576f026a8a">
+      <DeploymentItems>
+        <DeploymentItem filename="Code4Fun_Leone_2015-04-18.dll" />
+      </DeploymentItems>
+      <Execution id="19194805-c9a7-4015-862f-e385b8fce0c7" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParseFlatFiles_ParseFlatFiles" />
+    </UnitTest>
+    <UnitTest name="ParseFlatFiles_DuplicateKey" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="1419e153-4d2d-8237-23d6-1234a445d268">
+      <DeploymentItems>
+        <DeploymentItem filename="Code4Fun_Leone_2015-04-18.dll" />
+      </DeploymentItems>
+      <Execution id="03c2c672-7f40-4fa7-ae4a-3be953b43b63" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParseFlatFiles_DuplicateKey" />
+    </UnitTest>
+    <UnitTest name="Calculate_NullList" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="ae1f7ce3-2194-f26f-3a52-5277ed09e195">
+      <DeploymentItems>
+        <DeploymentItem filename="Code4Fun_Leone_2015-04-18.dll" />
+      </DeploymentItems>
+      <Execution id="b2b8c25f-ec00-4153-8b2a-076de82129ad" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationCalculatorTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Calculate_NullList" />
+    </UnitTest>
+    <UnitTest name="Equals_Equals" storage="c:\users\peppe\documents\github\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18\code4fun_leone_2015-04-18_test\bin\debug\code4fun_leone_2015-04-18_test.dll" id="614d3a3d-1749-61e5-5506-6277f6fc9762">
+      <Execution id="2b3bd46a-9364-4d29-ac2c-1ce5cf478591" />
+      <TestMethod codeBase="C:/Users/Peppe/Documents/GitHub/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18/Code4Fun_Leone_2015-04-18_Test/bin/Debug/Code4Fun_Leone_2015-04-18_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Code4Fun_Leone_2015_04_18_Test.NetworkInformationTest, Code4Fun_Leone_2015-04-18_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Equals_Equals" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Risultati non in elenco" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tutti i risultati caricati" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1b896062-af59-adad-66da-82eb31490782" executionId="89a62ee8-ce89-4e0a-a86a-7c601e32e592" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18b61074-caf2-b501-6f68-5c39d9ec0ff0" executionId="233e04f8-5a39-4416-913f-a8ff58054aa4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b81d1423-00a2-719b-2452-066462d5837c" executionId="27993c87-6abd-410c-a456-6487db1c52e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae1f7ce3-2194-f26f-3a52-5277ed09e195" executionId="b2b8c25f-ec00-4153-8b2a-076de82129ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d5d71ec-dba2-6391-dca9-a0fb3fd6ad05" executionId="1b5b96e5-3ca7-499b-a5c2-28e63794ea28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afd56f4d-9fac-efaf-d0b4-6ce3e04b1cc3" executionId="96ff250a-6c87-4f29-a130-14148f620809" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9d6a470-fc7c-7e63-e384-617897a3544e" executionId="c9e330af-c688-45f1-b030-c8b4ca6dd17c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7aba810b-a0c0-8201-e056-d18e68201a5b" executionId="f38c6b02-52b8-4301-86e5-8f04bf23d9cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="980377c1-7391-8ee8-3bc3-2a576f026a8a" executionId="19194805-c9a7-4015-862f-e385b8fce0c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06e07ec1-bc3c-9778-fb8d-aa0e71d2750e" executionId="54650332-78b8-4d41-8f44-4252d4c414be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cf2337d-f71d-532a-012d-26f0342f83c0" executionId="8c97878b-50f1-4088-939a-0cae352dd9d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1419e153-4d2d-8237-23d6-1234a445d268" executionId="03c2c672-7f40-4fa7-ae4a-3be953b43b63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="614d3a3d-1749-61e5-5506-6277f6fc9762" executionId="2b3bd46a-9364-4d29-ac2c-1ce5cf478591" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="89a62ee8-ce89-4e0a-a86a-7c601e32e592" testId="1b896062-af59-adad-66da-82eb31490782" testName="Calculate_Calculate" computerName="WIN-PT2FBT6II3P" duration="00:00:00.0403742" startTime="2015-04-19T16:57:33.9609365+02:00" endTime="2015-04-19T16:57:34.7539819+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89a62ee8-ce89-4e0a-a86a-7c601e32e592">
+    </UnitTestResult>
+    <UnitTestResult executionId="233e04f8-5a39-4416-913f-a8ff58054aa4" testId="18b61074-caf2-b501-6f68-5c39d9ec0ff0" testName="Calculate_NegaiveConnection" computerName="WIN-PT2FBT6II3P" duration="00:00:00.0004541" startTime="2015-04-19T16:57:34.7679827+02:00" endTime="2015-04-19T16:57:34.7749831+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="233e04f8-5a39-4416-913f-a8ff58054aa4">
+    </UnitTestResult>
+    <UnitTestResult executionId="27993c87-6abd-410c-a456-6487db1c52e9" testId="b81d1423-00a2-719b-2452-066462d5837c" testName="Calculate_EmptyList" computerName="WIN-PT2FBT6II3P" duration="00:00:00.0003047" startTime="2015-04-19T16:57:34.7829835+02:00" endTime="2015-04-19T16:57:34.7899839+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27993c87-6abd-410c-a456-6487db1c52e9">
+    </UnitTestResult>
+    <UnitTestResult executionId="b2b8c25f-ec00-4153-8b2a-076de82129ad" testId="ae1f7ce3-2194-f26f-3a52-5277ed09e195" testName="Calculate_NullList" computerName="WIN-PT2FBT6II3P" duration="00:00:00.0002341" startTime="2015-04-19T16:57:34.7999845+02:00" endTime="2015-04-19T16:57:34.8059848+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2b8c25f-ec00-4153-8b2a-076de82129ad">
+    </UnitTestResult>
+    <UnitTestResult executionId="1b5b96e5-3ca7-499b-a5c2-28e63794ea28" testId="0d5d71ec-dba2-6391-dca9-a0fb3fd6ad05" testName="ParseFlatFile_ParseFlatFile" computerName="WIN-PT2FBT6II3P" duration="00:00:00.1412285" startTime="2015-04-19T16:57:34.8179855+02:00" endTime="2015-04-19T16:57:34.9659940+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b5b96e5-3ca7-499b-a5c2-28e63794ea28">
+      <Output>
+        <StdOut>C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\..\..\Test_Data\1.tsv</StdOut>
+        <ErrorInfo>
+          <Message>Il metodo di test Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFile_ParseFlatFile ha generato un'eccezione: 
+System.NotImplementedException: Operazione o metodo non implementato.</Message>
+          <StackTrace>   in Code4Fun_Leone_2015_04_18.NetworkInformationParser_Accessor.ParseFlatFile(String filename, Char delimiter)
+   in Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFile_ParseFlatFile() in C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\NetworkInformationParserTest.cs:riga 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="96ff250a-6c87-4f29-a130-14148f620809" testId="afd56f4d-9fac-efaf-d0b4-6ce3e04b1cc3" testName="ParseFlatFile_IncompleteFile" computerName="WIN-PT2FBT6II3P" duration="00:00:00.1142385" startTime="2015-04-19T16:57:34.9799948+02:00" endTime="2015-04-19T16:57:35.1010017+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96ff250a-6c87-4f29-a130-14148f620809">
+      <Output>
+        <StdOut>C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\..\..\Test_Data2\3.tsv</StdOut>
+        <ErrorInfo>
+          <Message>Il metodo di test Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFile_IncompleteFile ha generato l'eccezione System.NotImplementedException, ma era prevista l'eccezione System.Exception. Messaggio dell'eccezione: System.NotImplementedException: Operazione o metodo non implementato.</Message>
+          <StackTrace>   in Code4Fun_Leone_2015_04_18.NetworkInformationParser_Accessor.ParseFlatFile(String filename, Char delimiter)
+   in Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFile_IncompleteFile() in C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\NetworkInformationParserTest.cs:riga 58
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c9e330af-c688-45f1-b030-c8b4ca6dd17c" testId="b9d6a470-fc7c-7e63-e384-617897a3544e" testName="ParseFlatFile_FileNotFound" computerName="WIN-PT2FBT6II3P" duration="00:00:00.1166771" startTime="2015-04-19T16:57:35.1120023+02:00" endTime="2015-04-19T16:57:35.2350094+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9e330af-c688-45f1-b030-c8b4ca6dd17c">
+      <Output>
+        <StdOut>C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\..\..\Test_Data2\filenotfound.tsv</StdOut>
+        <ErrorInfo>
+          <Message>Il metodo di test Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFile_FileNotFound ha generato l'eccezione System.NotImplementedException, ma era prevista l'eccezione System.IO.FileNotFoundException. Messaggio dell'eccezione: System.NotImplementedException: Operazione o metodo non implementato.</Message>
+          <StackTrace>   in Code4Fun_Leone_2015_04_18.NetworkInformationParser_Accessor.ParseFlatFile(String filename, Char delimiter)
+   in Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFile_FileNotFound() in C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\NetworkInformationParserTest.cs:riga 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f38c6b02-52b8-4301-86e5-8f04bf23d9cf" testId="7aba810b-a0c0-8201-e056-d18e68201a5b" testName="ParseFlatFile_DuplicateKey" computerName="WIN-PT2FBT6II3P" duration="00:00:00.1101538" startTime="2015-04-19T16:57:35.2460100+02:00" endTime="2015-04-19T16:57:35.3620166+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f38c6b02-52b8-4301-86e5-8f04bf23d9cf">
+      <Output>
+        <StdOut>C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\..\..\Test_Data3\4.tsv</StdOut>
+        <ErrorInfo>
+          <Message>Il metodo di test Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFile_DuplicateKey ha generato l'eccezione System.NotImplementedException, ma era prevista l'eccezione System.Exception. Messaggio dell'eccezione: System.NotImplementedException: Operazione o metodo non implementato.</Message>
+          <StackTrace>   in Code4Fun_Leone_2015_04_18.NetworkInformationParser_Accessor.ParseFlatFile(String filename, Char delimiter)
+   in Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFile_DuplicateKey() in C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\NetworkInformationParserTest.cs:riga 90
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="19194805-c9a7-4015-862f-e385b8fce0c7" testId="980377c1-7391-8ee8-3bc3-2a576f026a8a" testName="ParseFlatFiles_ParseFlatFiles" computerName="WIN-PT2FBT6II3P" duration="00:00:00.0900004" startTime="2015-04-19T16:57:35.3710171+02:00" endTime="2015-04-19T16:57:35.4680227+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19194805-c9a7-4015-862f-e385b8fce0c7">
+      <Output>
+        <StdOut>C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\..\..\Test_Data</StdOut>
+        <ErrorInfo>
+          <Message>Il metodo di test Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFiles_ParseFlatFiles ha generato un'eccezione: 
+System.NotImplementedException: Operazione o metodo non implementato.</Message>
+          <StackTrace>   in Code4Fun_Leone_2015_04_18.NetworkInformationParser_Accessor.ParseFlatFiles(String path, String searchPattern, Char delimiter)
+   in Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFiles_ParseFlatFiles() in C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\NetworkInformationParserTest.cs:riga 110
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="54650332-78b8-4d41-8f44-4252d4c414be" testId="06e07ec1-bc3c-9778-fb8d-aa0e71d2750e" testName="ParseFlatFiles_DirectoryNotFound" computerName="WIN-PT2FBT6II3P" duration="00:00:00.1332288" startTime="2015-04-19T16:57:35.4770232+02:00" endTime="2015-04-19T16:57:35.6160312+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54650332-78b8-4d41-8f44-4252d4c414be">
+      <Output>
+        <StdOut>C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\..\..\directorynotfound</StdOut>
+        <ErrorInfo>
+          <Message>Il metodo di test Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFiles_DirectoryNotFound ha generato l'eccezione System.NotImplementedException, ma era prevista l'eccezione System.IO.DirectoryNotFoundException. Messaggio dell'eccezione: System.NotImplementedException: Operazione o metodo non implementato.</Message>
+          <StackTrace>   in Code4Fun_Leone_2015_04_18.NetworkInformationParser_Accessor.ParseFlatFiles(String path, String searchPattern, Char delimiter)
+   in Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFiles_DirectoryNotFound() in C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\NetworkInformationParserTest.cs:riga 129
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8c97878b-50f1-4088-939a-0cae352dd9d8" testId="6cf2337d-f71d-532a-012d-26f0342f83c0" testName="ParseFlatFiles_IncompleteFile" computerName="WIN-PT2FBT6II3P" duration="00:00:00.1010679" startTime="2015-04-19T16:57:35.6290319+02:00" endTime="2015-04-19T16:57:35.7370381+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c97878b-50f1-4088-939a-0cae352dd9d8">
+      <Output>
+        <StdOut>C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\..\..\Test_Data2</StdOut>
+        <ErrorInfo>
+          <Message>Il metodo di test Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFiles_IncompleteFile ha generato l'eccezione System.NotImplementedException, ma era prevista l'eccezione System.Exception. Messaggio dell'eccezione: System.NotImplementedException: Operazione o metodo non implementato.</Message>
+          <StackTrace>   in Code4Fun_Leone_2015_04_18.NetworkInformationParser_Accessor.ParseFlatFiles(String path, String searchPattern, Char delimiter)
+   in Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFiles_IncompleteFile() in C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\NetworkInformationParserTest.cs:riga 147
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="03c2c672-7f40-4fa7-ae4a-3be953b43b63" testId="1419e153-4d2d-8237-23d6-1234a445d268" testName="ParseFlatFiles_DuplicateKey" computerName="WIN-PT2FBT6II3P" duration="00:00:00.1027757" startTime="2015-04-19T16:57:35.7470387+02:00" endTime="2015-04-19T16:57:35.8560449+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03c2c672-7f40-4fa7-ae4a-3be953b43b63">
+      <Output>
+        <StdOut>C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\bin\Debug\..\..\Test_Data3</StdOut>
+        <ErrorInfo>
+          <Message>Il metodo di test Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFiles_DuplicateKey ha generato l'eccezione System.NotImplementedException, ma era prevista l'eccezione System.Exception. Messaggio dell'eccezione: System.NotImplementedException: Operazione o metodo non implementato.</Message>
+          <StackTrace>   in Code4Fun_Leone_2015_04_18.NetworkInformationParser_Accessor.ParseFlatFiles(String path, String searchPattern, Char delimiter)
+   in Code4Fun_Leone_2015_04_18_Test.NetworkInformationParserTest.ParseFlatFiles_DuplicateKey() in C:\Users\Peppe\Documents\GitHub\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18\Code4Fun_Leone_2015-04-18_Test\NetworkInformationParserTest.cs:riga 164
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2b3bd46a-9364-4d29-ac2c-1ce5cf478591" testId="614d3a3d-1749-61e5-5506-6277f6fc9762" testName="Equals_Equals" computerName="WIN-PT2FBT6II3P" duration="00:00:00.0018299" startTime="2015-04-19T16:57:35.8660455+02:00" endTime="2015-04-19T16:57:35.8750460+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b3bd46a-9364-4d29-ac2c-1ce5cf478591">
+    </UnitTestResult>
+  </Results>
+</TestRun>
