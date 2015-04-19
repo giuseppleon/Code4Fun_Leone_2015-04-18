@@ -9,6 +9,13 @@ namespace Code4Fun_Leone_2015_04_18
 {
     class NetworkInformationParser
     {
+
+        private NetworkInformationParser()
+        {
+        }
+
+        //NOTA2: Valutare la necessità di gestire più formati di file attraverso l'aggiunta di un filetype o di altri metodi
+
         public static List<NetworkInformation> ParseFlatFiles(String path, String searchPattern, char delimiter)
         {
             //Check if the directory exists

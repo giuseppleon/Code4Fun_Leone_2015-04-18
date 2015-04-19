@@ -7,6 +7,19 @@ namespace Code4Fun_Leone_2015_04_18
 {
     class NetworkInformationCalculator
     {
+
+        private NetworkInformationCalculator()
+        {
+        }
+
+        //NOTA3: Non aggiungerei il metodo sotto riportato in modo da disaccoppiare il calcolo con il reperimento dei dati di input (che potrebbe avvenire da diverse fonti).
+
+        public static NetworkInformation Calculate(String path, String searchPattern)
+        {
+            return Calculate(NetworkInformationParser.ParseFlatFiles(path, searchPattern, '\t'));
+        }
+
+
         public static NetworkInformation Calculate(List<NetworkInformation> networkInformations)
         {
             // Return an empty NetworkInformation if the passed list of NetworkInformation is null
