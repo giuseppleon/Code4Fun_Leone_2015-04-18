@@ -64,6 +64,16 @@
       <Name>Code4Fun_Leone_2015-04-18</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Test_Data2\1.tsv" />
+    <None Include="Test_Data2\2.tsv" />
+    <None Include="Test_Data2\3.tsv" />
+    <None Include="Test_Data3\1.tsv" />
+    <None Include="Test_Data3\2.tsv" />
+    <None Include="Test_Data3\4.tsv" />
+    <None Include="Test_Data\1.tsv" />
+    <None Include="Test_Data\2.tsv" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
